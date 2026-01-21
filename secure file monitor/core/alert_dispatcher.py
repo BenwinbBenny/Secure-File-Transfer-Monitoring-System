@@ -11,6 +11,7 @@ class AlertDispatcher:
                 "summary": summary,
                 "metadata": metadata
             },
-            severit
+            severity
         )
+
 
