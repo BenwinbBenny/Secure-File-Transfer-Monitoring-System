@@ -1,7 +1,7 @@
 import os
 import time
 import shutil
-from config import dlp_settings as setting
+from config import dlp_settings as settings
 
 target_file = os.path.join(
     settings.SECURE_STORAGE,
@@ -22,4 +22,5 @@ shutil.copy2(
     target_file,
     os.path.join(settings.EXTERNAL_MEDIA, os.path.basename(target_file))
 )
+
 
