@@ -15,7 +15,8 @@ def main():
             time.sleep(1)
     except KeyboardInterrupt:
         watcher.stop()
-        record_event("SYSTEM_SHUTDOWN", {})
+        record_event("SYSTEM_SHUTDOWN", {}
 
 if __name__ == "__main__":
     main()
+
